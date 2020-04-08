@@ -13,4 +13,4 @@ You will also see any lint errors in the console.
 
 ### `Screenshot`
 
-<img href=".\assets_readme\Screenshot_57.png"/>
+<img src=".\assets_readme\Screenshot_57.png" style="width: 400px" />
