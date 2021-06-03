@@ -1,7 +1,15 @@
 import { createGlobalStyle } from 'styled-components'
+import RobotoBold from "../fonts/Roboto-Bold.ttf"
 
 export default createGlobalStyle`
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+  
+
+  @font-face {
+        font-family: "Roboto-Bold";
+        src: local("Roboto-Bold"),
+        url(${RobotoBold}) format("truetype");
+    }
+
 
     * {
         margin: 0;
@@ -16,7 +24,8 @@ export default createGlobalStyle`
     }
 
     body {
-        font-size: 14px 'Roboto', sans-serif;
+        font-family: 'Roboto-Bold', serif;
+        font-size: 14px;
         background: #ecf1f8;
         color: #333;
         -webkit-font-smoothing: antialiased !important;
